@@ -18,30 +18,31 @@
     <!-- Шапка сайта -->
  
     <header>
-      <div class="container">
-      <nav>
+      <div class="container header">
+      <nav class="header">
         <a class="link-logo" href="./index.html"
           ><span class="accent-logo">Web</span
           ><span class="logo">Studio</span></a>
 
         <ul class="site-nav list">
-          <li><a class="link-current" href="./index.html">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
+          <li class="item"><a class="link-current" href="./index.html">Студия</a></li>
+          <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li class="item"><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="list">
-        <li>
+
+      <ul class="contacts-list list">
+        <li class="item">
           <a class="contacts" href="mailto:info@devstudio.com"
             >info@devstudio.com</a>
         </li>
-        <li>
+        <li class="item">
           <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
       </div>
     </header>
- 
+
     <main>
       <!--Герой-->
       <section class="hero">
@@ -56,29 +57,32 @@
       <!--Наши особенности-->
       <section class="section">
         <div class="container">
-        <ul class="list">
-          <li>
+        <ul class="feature-list list">
+          <li class="item">
             <h3 class="page-subtitle">Внимание к деталям</h3>
             <p class="text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+
+          <li class="item">
             <h3 class="page-subtitle">Пунктуальность</h3>
             <p class="text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+
+          <li class="item">
             <h3 class="page-subtitle">Планирование</h3>
             <p class="text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          
+          <li class="item">
             <h3 class="page-subtitle">Современные технологии</h3>
             <p class="text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -89,28 +93,28 @@
         </div>
       </section>
       <!--Наша сфера деятельности-->
-      <section class="section">
+      <section class="section works">
       <div class="container">
         <h2 class="page-subject">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <img
+        <ul class="works-list list">
+          <li class="item">
+            <img class="images"
               src="./images/computer.jpg"
               alt="Работа с компьютером"
               width="370"
               height="294"
             />
           </li>
-          <li>
-            <img
+          <li class="item">
+            <img class="images"
               src="./images/phone.jpg"
               alt="Работа с телефоном"
               width="370"
               height="294"
             />
           </li>
-          <li>
-            <img
+          <li class="item">
+            <img class="images"
               src="./images/mapcase.jpg"
               alt="Работа с планшетом"
               width="370"
@@ -124,46 +128,65 @@
       <section class="team section">
         <div class="container">
         <h2 class="page-subject">Наша команда</h2>
-        <ul class="list">
-          <li>
+        <ul class="team-list list">
+          <li class="item">
+           <div class="section-card">
             <img class="photo"
               src="./images/ihor.jpg"
               alt="фото Игоря Демьяненка"
               width="270"
               height="260"
             />
+            
+            <div class="team-card">
             <h3 class="section-team">Игорь Демьяненко</h3>
             <p class="aside-team">Product Designer</p>
+            </div>
+            </div>
           </li>
-          <li>
+
+          <li class="item">
+            <div class="section-card">
             <img class="photo"
               src="./images/olga.jpg"
               alt="фото Ольги Репиной"
               width="270"
               height="260"
             />
+            <div class="team-card">
             <h3 class="section-team">Ольга Репина</h3>
             <p class="aside-team">Frontend Developer</p>
+            </div>
+            </div>
           </li>
-          <li>
+
+          <li class="item">
+            <div class="section-card">
             <img class="photo"
               src="./images/nikolay.jpg"
               alt="фото Николая Тарасова"
               width="270"
               height="260"
             />
+            <div class="team-card">
             <h3 class="section-team">Николай Тарасов</h3>
             <p class="aside-team">Marketing</p>
+            </div>
+            </div>
           </li>
-          <li>
+          <li class="item">
+            <div class="section-card">
             <img class="photo"
               src="./images/michael.jpg"
               alt="фото Михаила Ермакова"
               width="270"
               height="260"
             />
+            <div class="team-card">
             <h3 class="section-team">Михаил Ермаков</h3>
             <p class="aside-team">UI Designer</p>
+             </div>
+            </div>
           </li>
         </ul>
         </div>
@@ -172,7 +195,7 @@
     <!--Футер-->
     <footer class="footer">
       <div class="container">
-      <a class="link-logo footer" href="./index.html"
+      <a class="link-logo logotype" href="./index.html"
         ><span class="accent-logo">Web</span
         ><span class="footer-logo">Studio</span></a
       >
