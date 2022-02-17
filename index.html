@@ -12,14 +12,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
- 
-    <header>
-      <div class="container header">
-      <nav class="header">
+    <header class="page-header">
+      <div class="container header-nav">
+      <nav class="header-nav">
         <a class="link-logo" href="./index.html"
           ><span class="accent-logo">Web</span
           ><span class="logo">Studio</span></a>
@@ -47,12 +47,12 @@
       <!--Герой-->
       <section class="hero">
         <div class="container-hero">
-        <h1 class="page-caption">
+         <h1 class="page-caption">
           Эффективные решения <br />
           для вашего бизнеса
-        </h1>
-        <button type="button" class="primary-button">Заказать услугу</button>
-      </div>
+         </h1>
+         <button type="button" class="primary-button">Заказать услугу</button>
+        </div>
       </section>
       <!--Наши особенности-->
       <section class="section">
@@ -81,7 +81,7 @@
               степени обуславливает.
             </p>
           </li>
-          
+
           <li class="item">
             <h3 class="page-subtitle">Современные технологии</h3>
             <p class="text">
@@ -89,7 +89,7 @@
               плановых заданий.
             </p>
           </li>
-        </ul>
+         </ul>
         </div>
       </section>
       <!--Наша сфера деятельности-->
@@ -142,12 +142,12 @@
             <h3 class="section-team">Игорь Демьяненко</h3>
             <p class="aside-team">Product Designer</p>
             </div>
-            </div>
+          </div>
           </li>
 
           <li class="item">
             <div class="section-card">
-            <img class="photo"
+             <img class="photo"
               src="./images/olga.jpg"
               alt="фото Ольги Репиной"
               width="270"
@@ -195,18 +195,22 @@
     <!--Футер-->
     <footer class="footer">
       <div class="container">
-      <a class="link-logo logotype" href="./index.html"
+        <div class="logotype">
+      <a class="link-logo" href="./index.html"
         ><span class="accent-logo">Web</span
         ><span class="footer-logo">Studio</span></a
       >
+      </div>
       <address class="location">
+        <div class="address">
         г. Киев, пр-т Леси Украинки, 26
-        <ul class="list">
-          <li>
+        </div>
+        <ul class="footer-item list">
+          <li class="item">
             <a class="footer-contacts" href="mailto:info@example.com"
               >info@example.com</a>
           </li>
-          <li>
+          <li class="item">
             <a class="footer-contacts" href="tel:+380991111111"
               >+38 099 111 11 11</a>
           </li>
